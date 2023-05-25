@@ -1,0 +1,94 @@
+
+.searchIcon{
+    height: 4vh;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 6vh;
+}
+
+form input{
+    height: 3.5vh;
+    width: 100vh;
+    background-color: rgba(245, 222, 179, 0);
+}
+
+.topWeatherDisplay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cloudImg{
+    height: 8.5vh;
+}
+
+.Weatherdetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.countryName{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.nextArrow{
+    height: 4vh;
+    cursor: pointer;
+}
+
+.homepageWeathers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.WeatherDisplay{
+    border: 0.5px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 21vh;
+}
+
+.topWeatherInDetail{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin-top: 4vh;
+    padding-left: 3vh;
+    font-size: 21px;
+}
+
+.topWeatherInDetail div{
+    display: flex;
+    flex-direction: column;
+}
+
+.topWeatherInDetail img{
+    height: 10vh;
+}
+
+.detailSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    padding-left: 3vh;
+    gap: 20px;
+    font-size: 21px;
+}
+
+.errorMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    background-color: red;
+    color: white;
+    width: 48%;
+    margin-left: 25%;
+}

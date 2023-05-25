@@ -1,0 +1,32 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    background-color: blue;
+}
+
+.navbar h3{
+    color: white;
+    font-size: 24px;
+}
+
+.micIcon{
+    height: 3vh;
+    background-color: blue;
+}
+
+.settingIcon{
+    margin-left: 3vh;
+    height: 3vh;
+}
+
+.LeftArrow{
+    height: 3vh;
+}
