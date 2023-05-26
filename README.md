@@ -39,7 +39,7 @@ HTML | CSS | JS | ES6 | React
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [live link](https://hasnatali1947.github.io/Weather-App/)
+- [live link]([https://hasnatali1947.github.io/Weather-App/](https://weather-app-57lg.onrender.com/))
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
