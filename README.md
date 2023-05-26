@@ -1,70 +1,44 @@
-<a name="readme-top"></a>
-
-  <h3><b>Bookstore README Template</b></h3>
-
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Bookstore\] ](#-bookstore-)
+- [📖 Awesome books ](#-weather-)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Run test](#run-test)
-    - [Run App](#run-app)
-  - [👥 Authors ](#-authors-)
+    - [Usage](#usage)
+  - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Bookstore] <a name="about-project"></a>
 
-> Hello , This is a Bookstore application.
-**[Bookstore]** is a simple app where you can save all your books.
+# 📖 Weather <a name="about-project"></a>
+
+**Weather App** in this project, i create a weather app using React.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>HTML</summary>
-</details>
-<details>
-  <summary>CSS</summary>
-</details>
-<details>
-  <summary>JAVASCRIPT</summary>
-</details>
-<details>
-  <summary>React</summary>
-</details>
-
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
+- **[Search your city]**
+- **[Go to detail page]**
+- **[React Router Dom]**
 
-- **[Setup ]**
-- **[UI Design]**
-- **[Routing Pages]**
-- **[Added Reducers]**
-- **[Updating Items]**
-- **[Booklist initiate]**
-- **[Updating to API]**
-- **[Productive Design]**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Tech Stack <a name="tech-stack"></a>
 
-To get a local copy up and running, follow these steps.
+HTML | CSS | JS | ES6 | React
 
-<!--- GETTING STARTED --->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [live link](https://hasnatali1947.github.io/Weather-App/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -72,7 +46,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you needs:
+In order to run this project you need:
 
 A GitHub | A code editor | A web browser
 
@@ -82,21 +56,15 @@ Install all project dependencies by running the command below
 
   `$ npm install`
 
-And run `npm start` to launch the project .
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-  `git clone https://github.com/hasnatali1947/BooksStore.git`
+  `git clone https://github.com/hasnatali1947/Weather-App`
 
 ### Usage
 
 To run the project, open index.html with your preferred web browser or open it with a live server from your code editor
-
-### Run tests
-
-No tests
 
 ### Deployment
 
