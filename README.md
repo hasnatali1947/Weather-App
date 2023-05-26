@@ -35,7 +35,7 @@
 
 HTML | CSS | JS | ES6 | React
 
-- More details about the project can be seen in this [video](https://www.loom.com/share/18778594bc524f93bfeabd8d35a33ca3) 
+- More details about the project can be seen in this [video](https://www.loom.com/share/18778594bc524f93bfeabd8d35a33ca3)
 
 ## 🚀 Live Demo 
 
