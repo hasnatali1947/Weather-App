@@ -1,16 +1,16 @@
-/* eslint-disable*/
+/*eslint-disable*/
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import { Provider } from 'react-redux';
 import App from './App';
 import Store from './Redux/store';
 
-const root = createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <Provider store={Store}>
       <App />
-    </Provider>    
-  </React.StrictMode>
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById('root'),
 );
