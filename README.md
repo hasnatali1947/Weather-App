@@ -35,10 +35,11 @@
 
 HTML | CSS | JS | ES6 | React
 
+- More details about the project can be seen in this [video](https://www.loom.com/share/18778594bc524f93bfeabd8d35a33ca3)
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo 
 
-- [live link](https://hasnatali1947.github.io/Weather-App/)
+- <a href="https://weather-app-57lg.onrender.com/" name="live-demo">live link</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -113,7 +114,7 @@ If you like this project please leave a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks Microverse, learn how to code > [Join Microverse](https://www.microverse.org/?grsf=9m3hq6)
+Thanks [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
 
 ## 📝 License <a name="license"></a>
 
