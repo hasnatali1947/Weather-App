@@ -14,13 +14,9 @@ const detailSlice = createSlice({
   initialState: {},
   reducers: {},
   extraReducers(builder) {
-    builder.addCase(getweatherData.fulfilled, (state, action) => action.payload);
-  },
-  reducer(state, action) {
-    switch (action.type) {
-      default:
-        return state;
-    }
+    builder.addCase(getweatherData.fulfilled, (state, action) => {
+      state.weatherData = action.payload;
+    });
   },
 });
 

@@ -1,4 +1,4 @@
-import '../index';
+import '../style/index.css';
 import { Link, useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';

@@ -83,6 +83,7 @@ Array [
     >
       <div
         onClick={[Function]}
+        onKeyDown={[Function]}
         role="button"
         style={
           Object {
@@ -133,6 +134,7 @@ Array [
     >
       <div
         onClick={[Function]}
+        onKeyDown={[Function]}
         role="button"
         style={
           Object {
@@ -183,6 +185,7 @@ Array [
     >
       <div
         onClick={[Function]}
+        onKeyDown={[Function]}
         role="button"
         style={
           Object {
@@ -233,6 +236,7 @@ Array [
     >
       <div
         onClick={[Function]}
+        onKeyDown={[Function]}
         role="button"
         style={
           Object {
@@ -283,6 +287,7 @@ Array [
     >
       <div
         onClick={[Function]}
+        onKeyDown={[Function]}
         role="button"
         style={
           Object {
@@ -333,6 +338,7 @@ Array [
     >
       <div
         onClick={[Function]}
+        onKeyDown={[Function]}
         role="button"
         style={
           Object {
@@ -389,13 +395,13 @@ exports[`tests detail section 1`] = `
     />
     <div>
       <span>
-        Temperature: 
+        Temperature:
       </span>
       <span>
-        All clouds: 
+        All clouds:
       </span>
       <span>
-        Wind speed: 
+        Wind speed:
       </span>
     </div>
   </div>
@@ -409,7 +415,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Country: 
+      Country:
+       
     </p>
     <p
       style={
@@ -418,7 +425,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Base: 
+      Base:
+       
     </p>
     <p
       style={
@@ -427,7 +435,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Longitude: 
+      Longitude:
+       
     </p>
     <p
       style={
@@ -436,7 +445,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Latitude: 
+      Latitude:
+       
     </p>
     <p
       style={
@@ -445,7 +455,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Temp_min: 
+      Temp_min:
+       
     </p>
     <p
       style={
@@ -454,7 +465,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Temp_max: 
+      Temp_max:
+       
     </p>
     <p
       style={
@@ -463,7 +475,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Sunrise: 
+      Sunrise:
+       
     </p>
     <p
       style={
@@ -472,7 +485,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Sunset: 
+      Sunset:
+       
     </p>
     <p
       style={
@@ -481,7 +495,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      wind_deg: 
+      wind_deg:
+       
     </p>
     <p
       style={
@@ -490,7 +505,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      wind_gust: 
+      wind_gust:
+       
     </p>
     <p
       style={
@@ -499,7 +515,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Visibility: 
+      Visibility:
+       
     </p>
     <p
       style={
@@ -508,7 +525,8 @@ exports[`tests detail section 1`] = `
         }
       }
     >
-      Timezone: 
+      Timezone:
+       
     </p>
   </section>
 </div>
@@ -528,6 +546,7 @@ exports[`tests detail section 2`] = `
   >
     <div
       onClick={[Function]}
+      onKeyDown={[Function]}
       role="button"
       style={
         Object {
@@ -578,6 +597,7 @@ exports[`tests detail section 2`] = `
   >
     <div
       onClick={[Function]}
+      onKeyDown={[Function]}
       role="button"
       style={
         Object {
@@ -628,6 +648,7 @@ exports[`tests detail section 2`] = `
   >
     <div
       onClick={[Function]}
+      onKeyDown={[Function]}
       role="button"
       style={
         Object {
@@ -678,6 +699,7 @@ exports[`tests detail section 2`] = `
   >
     <div
       onClick={[Function]}
+      onKeyDown={[Function]}
       role="button"
       style={
         Object {
@@ -728,6 +750,7 @@ exports[`tests detail section 2`] = `
   >
     <div
       onClick={[Function]}
+      onKeyDown={[Function]}
       role="button"
       style={
         Object {
@@ -778,6 +801,7 @@ exports[`tests detail section 2`] = `
   >
     <div
       onClick={[Function]}
+      onKeyDown={[Function]}
       role="button"
       style={
         Object {

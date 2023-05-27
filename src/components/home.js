@@ -79,11 +79,11 @@ const Home = () => {
           </div>
           <Link
             to="/detail"
-            onClick={() => {
+            onClick={async () => {
               if (home.coord) {
-                dispatch(getweatherData({ lat: home.coord.lat, lon: home.coord.lon }));
+                await dispatch(getweatherData({ lat: home.coord.lat, lon: home.coord.lon }));
               } else {
-                dispatch(getweatherData({ lat: '33.0281858', lon: '72.0575345' }));
+                await dispatch(getweatherData({ lat: '33.0281858', lon: '72.0575345' }));
               }
             }}
           >

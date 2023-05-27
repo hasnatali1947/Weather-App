@@ -23,13 +23,12 @@ const DisplayWeatheronhome = () => {
 
   return (
     <div className="homepageWeathers">
-      {/* Weather displays */}
       <div className="WeatherDisplay first" style={{ background: 'rgba(0, 0, 0, 0.11)' }}>
         <div
           role="button"
           tabIndex={0}
           onClick={() => getData('Paris')}
-          onKeyPress={(e) => handleKeyPress(e, 'Paris')}
+          onKeyDown={(e) => handleKeyPress(e, 'Paris')}
           style={{ cursor: 'pointer' }}
         >
           <img className="cloudImg" src={cloudImg} alt="cloudImg" />
@@ -51,7 +50,7 @@ const DisplayWeatheronhome = () => {
           role="button"
           tabIndex={0}
           onClick={() => getData('Moscow')}
-          onKeyPress={() => getData('Moscow')}
+          onKeyDown={() => getData('Moscow')}
           style={{ cursor: 'pointer' }}
         >
           <img className="cloudImg" src={cloudImg} alt="cloudImg" />
@@ -73,7 +72,7 @@ const DisplayWeatheronhome = () => {
           role="button"
           tabIndex={0}
           onClick={() => getData('Dubai')}
-          onKeyPress={() => getData('Dubai')}
+          onKeyDown={() => getData('Dubai')}
           style={{ cursor: 'pointer' }}
         >
           <img className="cloudImg" src={cloudImg} alt="cloudImg" />
@@ -95,7 +94,7 @@ const DisplayWeatheronhome = () => {
           role="button"
           tabIndex={0}
           onClick={() => getData('New York')}
-          onKeyPress={() => getData('New York')}
+          onKeyDown={() => getData('New York')}
           style={{ cursor: 'pointer' }}
         >
           <img className="cloudImg" src={cloudImg} alt="cloudImg" />
@@ -117,7 +116,7 @@ const DisplayWeatheronhome = () => {
           role="button"
           tabIndex={0}
           onClick={() => getData('london')}
-          onKeyPress={() => getData('london')}
+          onKeyDown={() => getData('london')}
           style={{ cursor: 'pointer' }}
         >
           <img className="cloudImg" src={cloudImg} alt="cloudImg" />
@@ -139,7 +138,7 @@ const DisplayWeatheronhome = () => {
           role="button"
           tabIndex={0}
           onClick={() => getData('Istanbul')}
-          onKeyPress={() => getData('Istanbul')}
+          onKeyDown={() => getData('Istanbul')}
           style={{ cursor: 'pointer' }}
         >
           <img className="cloudImg" src={cloudImg} alt="cloudImg" />

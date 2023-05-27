@@ -16,7 +16,7 @@ body::before {
 
 body::after {
   content: "";
-  background-image: url(./assets/images/world-map.jpg);
+  background-image: url(../assets/images/world-map.jpg);
   background-size: cover;
   background-position: center;
   position: fixed;
