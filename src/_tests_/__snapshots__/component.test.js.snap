@@ -1,0 +1,846 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test home section 1`] = `
+Array [
+  <div
+    className="form-container"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="searchcity"
+        onChange={[Function]}
+        placeholder="Search your city"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        <img
+          alt="searchIcon"
+          className="searchIcon"
+          src="search-icon.png"
+          type="submit"
+        />
+      </button>
+    </form>
+  </div>,
+  <div
+    className="topWeatherDisplay"
+  >
+    <div
+      className="topsecond"
+    >
+      <img
+        alt="cloudImg"
+        className="TopcloudImg"
+        src="weatherIcon.png"
+      />
+      <div
+        className="Weatherdetails"
+      >
+        <span
+          className="countryName"
+        >
+          Country: PK
+        </span>
+        <span>
+          City: Nowshera
+        </span>
+        <span>
+          Latitude: 33.0281858
+        </span>
+        <span>
+          Longitude: 72.0575345
+        </span>
+        <span>
+          Timezone: 18000
+        </span>
+      </div>
+    </div>
+    <a
+      href="/detail"
+      onClick={[Function]}
+    >
+      <img
+        alt="nextArrow"
+        className="nextArrow"
+        src="next.png"
+      />
+    </a>
+  </div>,
+  <div
+    className="homepageWeathers"
+  >
+    <div
+      className="WeatherDisplay first"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      <div
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+        tabIndex={0}
+      >
+        <img
+          alt="cloudImg"
+          className="cloudImg"
+          src="weatherIcon.png"
+        />
+        <div
+          className="Weatherdetails"
+        >
+          <span
+            className="countryName"
+          >
+            Country: FR
+          </span>
+          <span>
+            City: Paris
+          </span>
+          <span>
+            Timezone: 3600
+          </span>
+        </div>
+      </div>
+      <a
+        href="/detail"
+        onClick={[Function]}
+      >
+        <img
+          alt="nextArrow"
+          className="nextArrow"
+          src="next.png"
+        />
+      </a>
+    </div>
+    <div
+      className="WeatherDisplay second"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.065)",
+        }
+      }
+    >
+      <div
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+        tabIndex={0}
+      >
+        <img
+          alt="cloudImg"
+          className="cloudImg"
+          src="weatherIcon.png"
+        />
+        <div
+          className="Weatherdetails"
+        >
+          <span
+            className="countryName"
+          >
+            Country: RU
+          </span>
+          <span>
+            City: Moscow
+          </span>
+          <span>
+            Timezone: 10800
+          </span>
+        </div>
+      </div>
+      <a
+        href="/detail"
+        onClick={[Function]}
+      >
+        <img
+          alt="nextArrow"
+          className="nextArrow"
+          src="next.png"
+        />
+      </a>
+    </div>
+    <div
+      className="WeatherDisplay third"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.065)",
+        }
+      }
+    >
+      <div
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+        tabIndex={0}
+      >
+        <img
+          alt="cloudImg"
+          className="cloudImg"
+          src="weatherIcon.png"
+        />
+        <div
+          className="Weatherdetails"
+        >
+          <span
+            className="countryName"
+          >
+            Country: AE
+          </span>
+          <span>
+            City: Dubai
+          </span>
+          <span>
+            Timezone: 14400
+          </span>
+        </div>
+      </div>
+      <a
+        href="/detail"
+        onClick={[Function]}
+      >
+        <img
+          alt="nextArrow"
+          className="nextArrow"
+          src="next.png"
+        />
+      </a>
+    </div>
+    <div
+      className="WeatherDisplay forth"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      <div
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+        tabIndex={0}
+      >
+        <img
+          alt="cloudImg"
+          className="cloudImg"
+          src="weatherIcon.png"
+        />
+        <div
+          className="Weatherdetails"
+        >
+          <span
+            className="countryName"
+          >
+            Country: US
+          </span>
+          <span>
+            City: New York
+          </span>
+          <span>
+            Timezone: 14400
+          </span>
+        </div>
+      </div>
+      <a
+        href="/detail"
+        onClick={[Function]}
+      >
+        <img
+          alt="nextArrow"
+          className="nextArrow"
+          src="next.png"
+        />
+      </a>
+    </div>
+    <div
+      className="WeatherDisplay fifth"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      <div
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+        tabIndex={0}
+      >
+        <img
+          alt="cloudImg"
+          className="cloudImg"
+          src="weatherIcon.png"
+        />
+        <div
+          className="Weatherdetails"
+        >
+          <span
+            className="countryName"
+          >
+            Country: UK
+          </span>
+          <span>
+            City: London
+          </span>
+          <span>
+            Timezone: 28800
+          </span>
+        </div>
+      </div>
+      <a
+        href="/detail"
+        onClick={[Function]}
+      >
+        <img
+          alt="nextArrow"
+          className="nextArrow"
+          src="next.png"
+        />
+      </a>
+    </div>
+    <div
+      className="WeatherDisplay sixth"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.065)",
+        }
+      }
+    >
+      <div
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+        tabIndex={0}
+      >
+        <img
+          alt="cloudImg"
+          className="cloudImg"
+          src="weatherIcon.png"
+        />
+        <div
+          className="Weatherdetails"
+        >
+          <span
+            className="countryName"
+          >
+            Country: TR
+          </span>
+          <span>
+            City: Istanbul
+          </span>
+          <span>
+            Timezone: 10800
+          </span>
+        </div>
+      </div>
+      <a
+        href="/detail"
+        onClick={[Function]}
+      >
+        <img
+          alt="nextArrow"
+          className="nextArrow"
+          src="next.png"
+        />
+      </a>
+    </div>
+  </div>,
+]
+`;
+
+exports[`tests detail section 1`] = `
+<div>
+  <div
+    className="topWeatherInDetail"
+  >
+    <img
+      alt="cloudImg"
+      className="cloudImg"
+      src="weatherIcon.png"
+    />
+    <div>
+      <span>
+        Temperature:
+      </span>
+      <span>
+        All clouds:
+      </span>
+      <span>
+        Wind speed:
+      </span>
+    </div>
+  </div>
+  <section
+    className="detailSection"
+  >
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Country:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Base:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Longitude:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Latitude:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Temp_min:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Temp_max:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Sunrise:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Sunset:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      wind_deg:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      wind_gust:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Visibility:
+       
+    </p>
+    <p
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+    >
+      Timezone:
+       
+    </p>
+  </section>
+</div>
+`;
+
+exports[`tests detail section 2`] = `
+<div
+  className="homepageWeathers"
+>
+  <div
+    className="WeatherDisplay first"
+    style={
+      Object {
+        "background": "rgba(0, 0, 0, 0.11)",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="cloudImg"
+        className="cloudImg"
+        src="weatherIcon.png"
+      />
+      <div
+        className="Weatherdetails"
+      >
+        <span
+          className="countryName"
+        >
+          Country: FR
+        </span>
+        <span>
+          City: Paris
+        </span>
+        <span>
+          Timezone: 3600
+        </span>
+      </div>
+    </div>
+    <a
+      href="/detail"
+      onClick={[Function]}
+    >
+      <img
+        alt="nextArrow"
+        className="nextArrow"
+        src="next.png"
+      />
+    </a>
+  </div>
+  <div
+    className="WeatherDisplay second"
+    style={
+      Object {
+        "background": "rgba(0, 0, 0, 0.065)",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="cloudImg"
+        className="cloudImg"
+        src="weatherIcon.png"
+      />
+      <div
+        className="Weatherdetails"
+      >
+        <span
+          className="countryName"
+        >
+          Country: RU
+        </span>
+        <span>
+          City: Moscow
+        </span>
+        <span>
+          Timezone: 10800
+        </span>
+      </div>
+    </div>
+    <a
+      href="/detail"
+      onClick={[Function]}
+    >
+      <img
+        alt="nextArrow"
+        className="nextArrow"
+        src="next.png"
+      />
+    </a>
+  </div>
+  <div
+    className="WeatherDisplay third"
+    style={
+      Object {
+        "background": "rgba(0, 0, 0, 0.065)",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="cloudImg"
+        className="cloudImg"
+        src="weatherIcon.png"
+      />
+      <div
+        className="Weatherdetails"
+      >
+        <span
+          className="countryName"
+        >
+          Country: AE
+        </span>
+        <span>
+          City: Dubai
+        </span>
+        <span>
+          Timezone: 14400
+        </span>
+      </div>
+    </div>
+    <a
+      href="/detail"
+      onClick={[Function]}
+    >
+      <img
+        alt="nextArrow"
+        className="nextArrow"
+        src="next.png"
+      />
+    </a>
+  </div>
+  <div
+    className="WeatherDisplay forth"
+    style={
+      Object {
+        "background": "rgba(0, 0, 0, 0.11)",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="cloudImg"
+        className="cloudImg"
+        src="weatherIcon.png"
+      />
+      <div
+        className="Weatherdetails"
+      >
+        <span
+          className="countryName"
+        >
+          Country: US
+        </span>
+        <span>
+          City: New York
+        </span>
+        <span>
+          Timezone: 14400
+        </span>
+      </div>
+    </div>
+    <a
+      href="/detail"
+      onClick={[Function]}
+    >
+      <img
+        alt="nextArrow"
+        className="nextArrow"
+        src="next.png"
+      />
+    </a>
+  </div>
+  <div
+    className="WeatherDisplay fifth"
+    style={
+      Object {
+        "background": "rgba(0, 0, 0, 0.11)",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="cloudImg"
+        className="cloudImg"
+        src="weatherIcon.png"
+      />
+      <div
+        className="Weatherdetails"
+      >
+        <span
+          className="countryName"
+        >
+          Country: UK
+        </span>
+        <span>
+          City: London
+        </span>
+        <span>
+          Timezone: 28800
+        </span>
+      </div>
+    </div>
+    <a
+      href="/detail"
+      onClick={[Function]}
+    >
+      <img
+        alt="nextArrow"
+        className="nextArrow"
+        src="next.png"
+      />
+    </a>
+  </div>
+  <div
+    className="WeatherDisplay sixth"
+    style={
+      Object {
+        "background": "rgba(0, 0, 0, 0.065)",
+      }
+    }
+  >
+    <div
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="cloudImg"
+        className="cloudImg"
+        src="weatherIcon.png"
+      />
+      <div
+        className="Weatherdetails"
+      >
+        <span
+          className="countryName"
+        >
+          Country: TR
+        </span>
+        <span>
+          City: Istanbul
+        </span>
+        <span>
+          Timezone: 10800
+        </span>
+      </div>
+    </div>
+    <a
+      href="/detail"
+      onClick={[Function]}
+    >
+      <img
+        alt="nextArrow"
+        className="nextArrow"
+        src="next.png"
+      />
+    </a>
+  </div>
+</div>
+`;

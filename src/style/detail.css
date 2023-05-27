@@ -1,0 +1,45 @@
+
+.detailSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.topWeatherInDetail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  color: white;
+}
+
+.topWeatherInDetail div {
+  margin-left: 3vh;
+}
+
+.topWeatherInDetail img {
+  width: 15vh;
+  margin-left: 10px;
+}
+
+.detailSection div p {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 6vh;
+  padding: 0 100vh;
+  font-size: large;
+}
+
+.detailSection div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  background-color: rgb(255, 79, 138);
+}
+
+.navbar h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.micIcon {
+  height: 3vh;
+  margin-right: 3vh;
+}
+
+.settingIcon {
+  margin-right: 3vh;
+  height: 3vh;
+}
+
+.LeftArrow {
+  height: 4.5vh;
+}
