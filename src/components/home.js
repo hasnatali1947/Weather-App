@@ -14,6 +14,34 @@ const Home = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const home = useSelector((state) => state.home);
   const dispatch = useDispatch();
+  const [filteredCities, setFilteredCities] = useState([]);
+  const cityList = ['New York',
+    'London',
+    'Paris',
+    'Islamabad',
+    'Delhi',
+    'Sharjah',
+    'Karachi',
+    'Tokyo',
+    'Sydney',
+    'Berlin',
+    'Rome',
+    'Cairo',
+    'Moscow',
+    'Toronto',
+    'Rio de Janeiro'];
+
+  const handleInputChange = (e) => {
+    const { value } = e.target;
+    setCountry(value);
+    const filtered = cityList.filter((city) => city.toLowerCase().startsWith(value.toLowerCase()));
+    setFilteredCities(filtered);
+  };
+
+  const handleCityClick = (city) => {
+    setCountry(city);
+    setFilteredCities([]);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -35,7 +63,7 @@ const Home = () => {
           <input
             className="searchcity"
             value={country}
-            onChange={(e) => setCountry(e.target.value)}
+            onChange={handleInputChange}
             placeholder="Search your city"
           />
           <button type="submit">
@@ -48,6 +76,18 @@ const Home = () => {
           </button>
         </form>
         {errorMessage && <span className="errorMessage">{errorMessage}</span>}
+
+        {filteredCities.length > 0 && (
+          <ul className="cityList">
+            {filteredCities.map((city) => (
+              <li key={city}>
+                <button type="button" tabIndex={0} onClick={() => handleCityClick(city)}>
+                  {city}
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
 
       {(Object.keys(home || {}).length > 1) ? (
